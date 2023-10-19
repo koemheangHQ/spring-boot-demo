@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/travellapi?useSSl=false
+    username: root
+    password: Koemheang10
+  #JPA Setting
+  jpa:
+    hibernate:
+      ddl-auto: create
+
